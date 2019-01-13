@@ -4,13 +4,13 @@
 > git-scm.com: сайт с документацией
 
 ## 2. Git install
-> Linux: sudo apt-get install git
-> Red Hat: sudo yum install git
+> Linux: sudo apt-get install git  
+> Red Hat: sudo yum install git  
 
 ## 3. Git install continue
 
 ## 4. Конфигурация
-> .gitconfig
+> .gitconfig  
 ```
 $ git config --global user.name "User Name"
 $ git config --global user.email "User Email"
@@ -26,21 +26,21 @@ $ git commit -m "Message commit"
 ```
 
 ## 6. История изменений, .gitignore, восстановление файлов
-> .gitignore
+> .gitignore  
 
-> все коммиты в бд
+> все коммиты в бд  
 `$ git log`  
 
-> 1 коммит из бд
+> 1 коммит из бд  
 `$ git log -1`  
 
-> коммит из бд + покажет изменения
+> коммит из бд + покажет изменения  
 `$ git log -1 -з  # 1`  
 
-> вернуть файл к последнему коммиту
+> вернуть файл к последнему коммиту  
 `$ git checkout -- fileName.txt`  
 
-> показывает, какие изменения пойдут в коммит
+> показывает, какие изменения пойдут в коммит  
 `$ git diff --staged`  
 
 ## 7. Регистрация аккаунта
@@ -50,52 +50,52 @@ $ git commit -m "Message commit"
 `$ git push origin`  
 
 ## 9. Hастройка логина в GitHub через SSH Key на Linux
-> с какой ссылкой соединен репозиторий
+> с какой ссылкой соединен репозиторий  
 `$ git remote -v`  
 
-> устанавливаем новую ссылку удаленного репозитория
+> устанавливаем новую ссылку удаленного репозитория  
 `$ git remote set-url origin URL`  
 
 ## 10. Hастройка логина в GitHub через SSH Key на Windows
 
 ## 11. Создание и работа с ветвлениями
-> показать ветки
+> показать ветки  
 `$ git branch`  
 
-> создать ветку
+> создать ветку  
 `$ git branch branchName`  
 
-> удалить ветку
+> удалить ветку  
 `$ git branch -d branchName`  
 
-> перейти на другую ветку
+> перейти на другую ветку  
 `$ git checkout branchName`  
 
-> создать и перейти на новую ветку
+> создать и перейти на новую ветку  
 `$ git checkout -b branchName`  
 
-> слияние веток
+> слияние веток  
 `$ git merge branchName`  
 
 ## 12. Возврат на предыдущие версии
-> вернуться на определенную точку
+> вернуться на определенную точку  
 `$ git checkout hashCommit`  
 
-> вернуться обратно
+> вернуться обратно  
 `$ git checkout master`  
 
-> изменение коммита
+> изменение коммита  
 `$ git commit --amend`  
 
-> удалить коммиты WARNING!
+> удалить коммиты WARNING!  
 `$ git reset --hard HEAD~countCommits`  
 
-> удаление коммитов с сохранением последней версии
+> удаление коммитов с сохранением последней версии  
 `$ git reset --soft HEAD~countCommits`  
 
 ## 13. Полный рабочий цикл действий Git + GitHub
-> создание новой ветки в удаленном репозитории
+> создание новой ветки в удаленном репозитории  
 `$ git push --set-upstream origin branchName`  
 
-> удаление ветки из удаленного репозитория
+> удаление ветки из удаленного репозитория  
 `$ git push origin --delete branchName`  
