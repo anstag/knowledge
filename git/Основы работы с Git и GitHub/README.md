@@ -19,7 +19,7 @@ $ git config -l
 
 ## 5. Работа с локальным репозиторием
 ```
-$ git init .
+$ git init
 $ git status
 $ git add . или git add *
 $ git commit -m "Message commit"
@@ -34,8 +34,8 @@ $ git commit -m "Message commit"
 > 1 коммит из бд  
 `$ git log -1`  
 
-> коммит из бд + покажет изменения  
-`$ git log -1 -з  # 1`  
+> 1 коммит из бд + покажет изменения  
+`$ git log -1 -p`  
 
 > вернуть файл к последнему коммиту  
 `$ git checkout -- fileName.txt`  
