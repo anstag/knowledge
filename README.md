@@ -25,3 +25,4 @@
 - [X] Scrum60; [материалы](https://github.com/anstag/knowledge/tree/master/Other/Scrum60)
 - [X] Тестирование веб-приложений 2.0; [материалы](https://github.com/anstag/knowledge/tree/master/Other/Testing2.0)
 - [X] Continuous Integration под микроскопом; [материалы](https://github.com/anstag/knowledge/tree/master/Other/IntroContinuousIntegration)
+- [X] Docker: как начать и что он даст простому веб-разработчику?; [материалы](https://github.com/anstag/knowledge/tree/master/Other/Docker)
