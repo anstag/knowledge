@@ -93,13 +93,15 @@
 ### Как сделать свой образ?
 > Для начала нужно подготовить специальный файл, который называется Dockerfile:
 
-`FROM php:7.3-cli
+```
+FROM php:7.3-cli
 MAINTAINER UserName <user@true.ru>
 
 RUN apt update && apt install -y mc
 
 COPY . /app
-WORKDIR /app`
+WORKDIR /app
+```
 
 - Обязательно указываем образ, от которого наследуемся
 - RUN - Выполняет определенные нами команды при сборке образа (создает слой)
