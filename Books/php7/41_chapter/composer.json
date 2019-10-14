@@ -1,0 +1,8 @@
+{
+    "name": "anstag/41_chapter",
+    "require": {
+        "monolog/monolog": "^1.24",
+        "psy/psysh": "@stable",
+        "robmorgan/phinx": "^0.10.8"
+    }
+}
